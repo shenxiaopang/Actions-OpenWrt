@@ -18,7 +18,7 @@ env:
   REPO_URL: https://github.com/bingoguo93/immortalwrt
   REPO_BRANCH: openwrt-25.12
   FEEDS_CONF: feeds.conf.default
-  DIY_P1_SH: diy-part1.sh
+  DIY_P1_SH: diy-part4.sh
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
@@ -83,7 +83,7 @@ jobs:
         [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
         chmod +x $DIY_P1_SH
         cd openwrt
-        $GITHUB_WORKSPACE/$DIY_P1_SH
+        $GITHUB_WORKSPACE/$DIY_P4_SH
 
     - name: Update & Install feeds
       working-directory: ./openwrt
