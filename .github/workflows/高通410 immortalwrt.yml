@@ -22,7 +22,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/xuxin1955/immortalwrt
+  REPO_URL: https://github.com/lkiuyu/immortalwrt
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: config_small
@@ -75,7 +75,7 @@ jobs:
         python3 -m pip install --upgrade pip setuptools wheel
         python3 -m pip --version
         python3 -c "import setuptools.build_meta; print('setuptools.build_meta OK')"
-
+        python3 -m pip install Unidecode
 
     - name: Clone source code
       working-directory: /mnt
