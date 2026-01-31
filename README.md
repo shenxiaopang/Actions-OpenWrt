@@ -51,6 +51,8 @@ kmod-rtw88-8822cu和rtl8812cu通用
 
 ![RTL8812CU网卡](https://qqbot.ugcimg.cn/1106413613/28efddef1be940bee43f05f27758994db2be56c8/916b254e6bf0605a98dadfce2eb6e89b)
 
+![8812CU接线焊接图](https://raw.githubusercontent.com/xuxin1955/Actions-OpenWrt/main/pics/IMG_20260131_183658.jpg)
+
 
 8812CU和8811CU都能完美驱动
 
