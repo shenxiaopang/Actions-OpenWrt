@@ -130,8 +130,9 @@ jobs:
       with:
        name: build-config
        path: |
-        openwrt/.config
-        openwrt/feeds.conf.default
+         ${{ github.workspace }}/openwrt/.config
+         ${{ github.workspace }}/openwrt/feeds.conf.default
+       include-hidden-files: true
       
     - name: Download package
       working-directory: ./openwrt
