@@ -7,7 +7,7 @@ on:
       ssh:
         description: 'SSH connection to Actions'
         required: false
-        default: false
+        default: true
         type: boolean
       log_switch:
         description: "编译日志开关"
