@@ -12,7 +12,7 @@ on:
       log_switch:
         description: "编译日志开关"
         required: false
-        default: false
+        default: true
         type: boolean
 
 env:
